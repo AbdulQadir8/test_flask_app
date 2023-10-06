@@ -18,7 +18,7 @@ def about():
         return render_template('about.html', results = {"result":result})
 
     else:
-        return render_template("about.html", results = {'esult':''})
+        return render_template("about.html", results = {'result':''})
 
 
 if __name__ == "__main__":
